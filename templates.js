@@ -13,7 +13,7 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "Heartland Scheduling SMS Prompt",
-        text: "Message from Heartland Cardiology, you've been scheduled for a new patient appointment with [Dr. Name] on [Date & Time] at our [Location] location. Call us at (316) 686-5300, option 1 to reschedule."
+        text: "Message from Heartland Cardiology, you've been scheduled for a new patient appointment with Dr. [Name] on [Date & Time] at our [Location] location. Call us at (316) 686-5300, option 1 to reschedule."
       }
     ]
   },
@@ -22,7 +22,7 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "Referred-To Specific Provider Special Case TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. They are [Special Category]. Documents have been uploaded to patient chart."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. They are [Special Category]. Documents have been uploaded to patient chart."
       },
       {
         title: "No Referred-To Provider Special Case TE",
@@ -30,7 +30,7 @@ const TEMPLATE_DATA = [
       },
       {
         title: "Incoming Referral Notice: Pt Scheduled Already Within 3 Months",
-        text: "Be advised of incoming referral from [Referring Provider Last Name] for [Diagnosis]. Patient is currently scheduled for [Appointment Reason] with [Provider] on [Date/Time]. Documents have been uploaded to patient chart."
+        text: "Be advised of incoming referral from Dr. [Referring Provider Last Name] for [Diagnosis]. Patient is currently scheduled for [Appointment Reason] with [Provider] on [Date/Time]. Documents have been uploaded to patient chart."
       },
       {
         title: "Rendering Provider Conflict Action",
@@ -43,7 +43,7 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "High Priority - No Availability TE",
-        text: "Please urgently schedule this patient. Referred to [Dr. Name] for [Diagnosis]. There is no availability within 5 business days. Documents have been uploaded to the patient's chart."
+        text: "Please urgently schedule this patient. Referred to Dr. [Name] for [Diagnosis]. There is no availability within 5 business days. Documents have been uploaded to the patient's chart."
       },
       {
         title: "Scheduled Patient Within 48-72 Hrs TE",
@@ -56,11 +56,11 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "Imaging TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Specify Imaging Type], [Diagnosis]."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Specify Imaging Type], [Diagnosis]."
       },
       {
         title: "Cardiac Clearance Established Patient TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for Cardiac Clearance. They are an established patient."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for Cardiac Clearance. They are an established patient."
       },
       {
         title: "Gedela TAVR TE",
@@ -77,15 +77,15 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "Missing Phone Number TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient is missing phone number."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient is missing phone number."
       },
       {
         title: "Missing Insurance TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. They are missing insurance."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. They are missing insurance."
       },
       {
         title: "Unsure/Denied Insurance TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient insurance is ineligible."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient insurance is ineligible."
       }
     ]
   },
@@ -94,23 +94,23 @@ const TEMPLATE_DATA = [
     templates: [
       {
         title: "Requires Translation (Non-English Speaking) TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. They are [Language]-speaking."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. They are [Language]-speaking."
       },
       {
         title: "Inmate TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient is an inmate."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient is an inmate."
       },
       {
         title: "St. Luke's Transplant TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient is a transplant candidate."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient is a transplant candidate."
       },
       {
         title: "Pediatric (<18 yrs old) TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient is a minor."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient is a minor."
       },
       {
         title: "Telemed Request TE",
-        text: "Please schedule this patient. Referred to [Rendering Provider] for [Diagnosis]. Patient is requesting a Telemed appointment."
+        text: "Please schedule this patient. Referred to Dr. [Rendering Provider] for [Diagnosis]. Patient is requesting a Telemed appointment."
       }
     ]
   }
