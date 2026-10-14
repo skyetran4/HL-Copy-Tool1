@@ -6,22 +6,22 @@
 <title>Heartland Cardiology Copy Tool</title>
 <style>
   :root {
-    --bg: #f6f7f9;
+    --bg: #fff3f7;
     --card: #ffffff;
-    --ink: #1c2230;
-    --muted: #5d6677;
-    --line: #dfe3ea;
-    --accent: #a8243a;
+    --ink: #3b1a2b;
+    --muted: #8a5a72;
+    --line: #f5cfdd;
+    --accent: #d6336c;
     --accent-ink: #ffffff;
-    --accent-soft: #fbeaed;
+    --accent-soft: #fde4ee;
     --ok: #1d6b45;
     --fill: #e6f2ec;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #14171d; --card: #1d2129; --ink: #eceff4; --muted: #9aa3b2;
-      --line: #2b313c; --accent: #d9485e; --accent-ink: #ffffff;
-      --accent-soft: #3a1f26; --ok: #5fc08f; --fill: #1f3329;
+      --bg: #2a1220; --card: #3a1a2d; --ink: #ffe9f1; --muted: #d9a7be;
+      --line: #5c2c47; --accent: #f06292; --accent-ink: #ffffff;
+      --accent-soft: #4a1f37; --ok: #5fc08f; --fill: #1f3329;
     }
   }
   * { box-sizing: border-box; }
@@ -35,7 +35,7 @@
   header p { margin: 4px 0 0; color: var(--muted); }
   .bar {
     position: sticky; top: 0; z-index: 5; background: var(--bg);
-    border-bottom: 1px solid var(--line); padding: 12px 20px;
+    border-bottom: 2px solid var(--line); padding: 12px 20px;
   }
   .bar-inner { max-width: 1100px; margin: 0 auto; }
   #search {
@@ -55,7 +55,7 @@
   }
   .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 440px), 1fr)); gap: 16px; }
   .card {
-    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    background: var(--card); border: 1px solid var(--line); border-top: 3px solid #f48fb1; border-radius: 10px;
     padding: 16px; display: flex; flex-direction: column; gap: 12px;
   }
   .card[hidden], .category[hidden], #empty[hidden], #nav[hidden] { display: none; }
@@ -98,7 +98,7 @@
 </head>
 <body>
 <header>
-  <h1>Heartland Cardiology Copy Tool</h1>
+  <h1>💖 Heartland Cardiology Copy Tool</h1>
   <p>Fill in the fields, then press Copy. Blank fields keep their [bracket] text.</p>
 </header>
 <div class="bar">
